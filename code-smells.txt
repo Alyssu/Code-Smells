@@ -1,0 +1,6 @@
+1- Importação nao usada: request nao é acessado em momento nenhum.
+2- Rotas do Flask dando erro: 404 na inicilização do codigo.
+3- Metodos bloqueados pra se acessar pelo localhost web: caminho de register e battle não são acessados.
+4- Falta de tratamento de erros: o codigo nao lida com possiveis erros.
+5- Exposição direta de atributos: o atributo "observers" é exposto diretamente na classe Subject
+6- Falta de fatoração do codigo: as linhas de codigo de rota do flask estavam no mesmo arquivo do main, em vez de estar em uma separada.
